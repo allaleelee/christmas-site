@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Festive&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #39d3e7;
+  font: 28px 'Elsie', cursive;
+}
+
+h1 {
+  font: 60px 'Festive', cursive;
+  text-align: center;
+}
+
+nav {
+  border-bottom: rgb(255, 255, 255) 0.5rem dotted;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  color: #000;
+  margin-right: 3.5rem;
+  padding-left: 2rem;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.current-page:hover {
+  text-decoration: overline;
+}
+
+h2 {
+  text-align: center;
+}
+
+#silver-decos {
+  border: #fff .5rem solid;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+footer p {
+  text-align: right;
+}
+
+footer {
+  height: 100px;
+  background: -webkit-linear-gradient(left, #39d3e7, #fff 75%, #39d3e7);
+  background: -moz-linear-gradient(left, #39d3e7, #fff, #39d3e7);
+  background: -ms-linear-gradient(left, #39d3e7, #fff, #39d3e7);
+  background: -o-linear-gradient(left, #39d3e7, #fff, #39d3e7);
+}
